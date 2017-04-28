@@ -1,0 +1,23 @@
+Package: shaffer1
+Type: Package
+Title: Search Recipes with ingredients of choice
+Version: 0.1.0
+Authors@R: person("Ben Denis", "Shaffer", email = "bdshaff@umich.edu",
+        role = c("aut","cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Using this package you can retrieve a list of recipes based on the ingedients
+        and type of dish you want. The functianlity is enabled by the recipepuppy.com.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+        jsonlite,
+        stringr,
+        stats,
+        smoothmest,
+        ggplot2
+Suggests:
+        ggplot2,
+        testthat
+URL: http://recipepuppy.com/
+RoxygenNote: 6.0.1
